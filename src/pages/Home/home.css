@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background: #E3E8F0;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}

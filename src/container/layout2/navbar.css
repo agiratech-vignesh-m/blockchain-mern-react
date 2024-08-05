@@ -1,0 +1,34 @@
+.navbar{
+  min-height: 10vh;
+  background: #E3E8F0;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.navbar-left{
+  height: 10vh;
+  margin-left: 2rem;
+  /* flex: 1; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar-logo{
+  width: 50px;
+}
+
+.navbar-center {
+  flex: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 10px;
+}
+
+.navbar-right{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

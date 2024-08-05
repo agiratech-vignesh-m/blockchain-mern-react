@@ -1,0 +1,257 @@
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: #E3E8F0;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+/* .logo-img{
+  width: 3%;
+  display: flex;
+  justify-content: flex-start;
+} */
+
+.login-form-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #db7917;
+}
+
+.login-form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 20%;
+  min-height: 30vh;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: white;
+}
+
+.login-form-1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 6rem;
+}
+
+.login-form-2 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* width: 100%; */
+  flex-direction: row;
+  align-self: stretch;
+  min-height: 6rem;
+}
+
+.login-first-login-form{
+  display: flex;
+  align-self: stretch;
+  /* gap: 10px; */
+  justify-content: space-between;
+  min-height: 6rem;
+  /* width: 100%; */
+  /* flex-direction: row; */
+}
+
+.login-first-form-1{
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  width: 49%;
+  /* gap: 1%; */
+}
+
+/* .name {
+  width: 20%;
+  display: flex;
+} */
+
+.login-form-label {
+  display: block;
+  margin-bottom: 0.5rem; 
+  color: #534E4F;
+  /* font-weight: bold; */
+  font-size: 1rem;
+  /* color: black; */
+}
+
+.login-form-label-2{
+  display: block;
+  margin-bottom: 0.5rem; 
+  /* font-weight: bold; */
+  font-size: 1rem;
+  color: black;
+}
+
+.login-form-input {
+  border: 1px solid #A4B8E3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 0.7rem;
+  outline: none;
+  background: white;
+}
+
+.login-form-input-password{
+  border: 1px solid #A4B8E3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 1000;
+  padding: 0.7rem;
+  outline: none;
+  background: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.login-form-input-pwd-1 {
+  flex: 1; /* Take up all available space */
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  /* padding: 0.5rem; */
+}
+
+.login-form-input-2 {
+  border: 2px solid #A4B8E3;
+  border-radius: 5px;
+  /* box-sizing: border-box; */
+  /* font-size: 1rem; */
+  padding: 0.8rem 0;
+  /* width: 100%;  */
+  outline: none;
+  background: white;
+  /* margin: 0.2rem 0; */
+}
+
+.login-form-input:focus {
+  border-color: #007bff; /* Change this to your desired focus color */
+}
+
+.login-submit-button {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  background-color: #db7917;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+  /* transition: background-color 0.3s ease; */
+}
+
+.login-submit-button:hover {
+  opacity: 1
+  /* background-color: black; */
+  /* color: white; */
+  /* transition: background-color 0.3s ease; */
+}
+
+.login-footer{
+  display: flex;
+  margin-top: 1.5rem;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10px
+}
+
+.login-error-message {
+  color: red;
+  font-size: 0.8rem;
+  /* font-weight: bold; */
+  margin-top: 5px;
+  /* margin-bottom: 5rem; */
+}
+
+/* register.css */
+.login-password-strength {
+  margin-top: 10px;
+  height: 10px;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  position: relative;
+}
+
+.login-password-strength span {
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease;
+}
+
+.login-password-strength.weak span {
+  background-color: red;
+  width: 33%;
+}
+
+.login-password-strength.moderate span {
+  background-color: orange;
+  width: 66%;
+}
+
+.login-password-strength.strong span {
+  background-color: green;
+  width: 100%;
+}
+
+@media (max-width: 1550px) {
+  .login-form {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .login-form {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .login-first-form {
+    flex-direction: column;
+  }
+
+  .login-first-form-1 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 680px) {
+
+  .login-form {
+    width: 55%;
+  }
+
+  .login-form-input-pwd-1 {
+    padding: 0;
+    width: 30%;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .login-footer{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .login-form-title{
+    font-size: 1.5rem;
+  }
+}

@@ -9,7 +9,7 @@ const Layout = () => {
     <div>
       <Navbar/>
       <Navbar2/>
-      <div style={{height: '85vh'}}>
+      <div style={{height: '90vh'}}>
       <Outlet/>
       </div>
     </div>

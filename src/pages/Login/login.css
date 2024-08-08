@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
+  min-height: 92vh;
   background: #E3E8F0;
   flex-direction: column;
   /* border: 1px solid black; */
@@ -18,7 +18,7 @@
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #db7917;
+  color: #030637;
 }
 
 .login-form {
@@ -140,7 +140,7 @@
   width: 100%;
   padding: 1rem 0.5rem;
   font-size: 1rem;
-  background-color: #db7917;
+  background-color: #910A67;
   border: none;
   border-radius: 5px;
   color: white;

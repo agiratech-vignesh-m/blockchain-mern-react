@@ -159,9 +159,9 @@ const Register = () => {
                 onClick={() => setShowPassword(!showPassword)}
               >
                 {showPassword ? (
-                  <FaEyeSlash color="#db7917" fontSize="1.2rem" />
+                  <FaEyeSlash color="#030637" fontSize="1.2rem" />
                 ) : (
-                  <FaRegEye color="#db7917" fontSize="1.2rem" />
+                  <FaRegEye color="#030637" fontSize="1.2rem" />
                 )}
               </span>
             </div>
@@ -188,9 +188,9 @@ const Register = () => {
                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
               >
                 {showConfirmPassword ? (
-                  <FaEyeSlash color="#db7917" fontSize="1.2rem" />
+                  <FaEyeSlash color="#030637" fontSize="1.2rem" />
                 ) : (
-                  <FaRegEye color="#db7917" fontSize="1.2rem" />
+                  <FaRegEye color="#030637" fontSize="1.2rem" />
                 )}
               </span>
             </div>
@@ -205,8 +205,8 @@ const Register = () => {
         </form>
 
         <div className="footer">
-          <p style={{ color: "#534E4F" }}>Already have an account?</p>
-          <Link style={{ color: "#db7917" }} to="/login">
+          <p style={{ color: "#030637" }}>Already have an account?</p>
+          <Link style={{ color: "#910A67" }} to="/login">
             Sign in.
           </Link>
         </div>

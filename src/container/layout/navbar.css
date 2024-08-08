@@ -1,54 +1,60 @@
-.navbar{
-  min-height: 10vh;
+.navbar {
+  min-height: 8vh;
+  display: flex;
   background: #E3E8F0;
-  display: flex;
-  /* justify-content: space-between; */
 }
 
-.navbar2{
-  min-height: 5vh;
-  background: red;
+.navbar-left {
   display: flex;
-  /* justify-content: space-between; */
-}
-
-.navbar-left{
-  height: 10vh;
-  margin-left: 2rem;
-  flex: 1;
-  display: flex;
+  flex: 1.5;
   justify-content: flex-start;
   align-items: center;
-  gap: 1rem;
+  gap: 10px;
 }
 
-.navbar2-left{
-  height: 5vh;
+.navbar-logo {
+  width: 60px;
   margin-left: 2rem;
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
-}
-
-.navbar-logo{
-  width: 50px;
 }
 
 .navbar-center {
   display: flex;
-  justify-content: center;
+  flex: 4;
+  justify-content: space-evenly;
   align-items: center;
-  flex: 3;
-  /* justify-content: space-between; */
-  gap: 100px;
-  margin-right: 30rem;
 }
 
-.navbar-right{
+.navbar-center-menu {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem; 
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.navbar-right {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+}
+
+.navbar-right-button {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+
+.navbar-right-button:hover {
+  background-color: #030637;
+  border: none;
+  color: white;
+}
+
+
+.navbar2{
+  background-color: #030637;
+  min-height: 2vh;
 }

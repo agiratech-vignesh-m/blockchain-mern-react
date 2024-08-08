@@ -95,9 +95,9 @@ const Register = () => {
               />
               <span onClick={() => setShowPassword(!showPassword)}>
                 {showPassword ? (
-                  <FaEyeSlash color="#db7917" fontSize="1.2rem" />
+                  <FaEyeSlash color="#030637" fontSize="1.2rem" />
                 ) : (
-                  <FaRegEye color="#db7917" fontSize="1.2rem" />
+                  <FaRegEye color="#030637" fontSize="1.2rem" />
                 )}
               </span>
             </div>
@@ -112,19 +112,21 @@ const Register = () => {
               justifyContent: "flex-end",
             }}
           >
-            <Link style={{ color: "#db7917" }} to="/login">
+            <Link style={{ color: "#910A67" }} to="/verify-otp">
               Forget password?
             </Link>
           </div>
-          {apiError && <span className="api-error-message">{apiErrorMessage}</span>}
+          {apiError && (
+            <span className="api-error-message">{apiErrorMessage}</span>
+          )}
           <button className="login-submit-button" type="submit">
             Submit
           </button>
         </form>
 
         <div className="login-footer">
-          <p style={{ color: "#534E4F" }}>New to Checkmate?</p>
-          <Link style={{ color: "#db7917" }} to="/login">
+          <p style={{ color: "#030637" }}>New to Checkmate?</p>
+          <Link style={{ color: "#910A67" }} to="/register">
             Create an account
           </Link>
         </div>

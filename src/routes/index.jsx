@@ -13,6 +13,7 @@ import Portfolio from "../pages/Portfolio";
 import About from "../pages/About";
 import ConfirmPassword from "../pages/Password/ConfirmPassword";
 import VerifyOtp from "../pages/Password/VerifyOtp";
+import ForgotPassword from "../pages/Password/ForgotPassword";
 
 const Routepath = () => {
   return (
@@ -29,8 +30,9 @@ const Routepath = () => {
       <Route path="/" element={<Layout2 />}>
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/confirm-password" element={<ConfirmPassword />} />
+      <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/verify-otp" element={<VerifyOtp />} />
+      <Route path="/confirm-password" element={<ConfirmPassword />} />
       </Route>
     </Routes>
   );

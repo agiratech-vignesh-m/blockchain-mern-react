@@ -112,7 +112,7 @@ const Register = () => {
               justifyContent: "flex-end",
             }}
           >
-            <Link style={{ color: "#910A67" }} to="/verify-otp">
+            <Link style={{ color: "#910A67" }} to="/forgot-password">
               Forget password?
             </Link>
           </div>
